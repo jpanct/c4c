@@ -13,6 +13,7 @@ import { zodiosApp } from '@zodios/express';
 import { userApi } from '@c4c/monarch/common';
 import serverlessExpress from '@vendia/serverless-express';
 
+
 // Need to use base Express in order for compat with serverless-express
 // See: https://github.com/ecyrbe/zodios-express/issues/103
 export const baseApp = express();
